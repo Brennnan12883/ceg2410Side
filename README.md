@@ -29,7 +29,7 @@
 - Install Vundle for managing Vim plugins.
 - Install a color scheme for Vim.
 - Install a Vim improvement plugin.
-- 
+  
 ## Example of install.sh:
 
 bash
