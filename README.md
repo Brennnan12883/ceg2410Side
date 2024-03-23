@@ -30,12 +30,6 @@
 - Install a color scheme for Vim.
 - Install a Vim improvement plugin.
   
-## Example of install.sh:
-
-bash
-Copy code
-#!/bin/bash
-
 # Check if running as root
 if [ "$(id -u)" -ne 0 ]; then
     echo "Please run this script as root"
