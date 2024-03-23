@@ -49,7 +49,8 @@ if ! command -v apt &> /dev/null; then
 fi
 
 # Install required packages
-apt install -y dnsutils nmap
+- dnsutils
+
 
 # Git Configuration
 - git config --global user.name "Your Name"
@@ -84,3 +85,4 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 - https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c
 - https://github.com/vikaskyadav/awesome-bash-alias
 - ChatGPT
+- https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux
