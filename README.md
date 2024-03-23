@@ -83,4 +83,4 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 - https://github.com/vikaskyadav/awesome-bash-alias
 - ChatGPT
 - https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux
-- My partner helped me with script
+- [My partner helped me with a lot of the script, may look very similar.](https://github.com/owenkojola/dotfiles) 
