@@ -1,8 +1,8 @@
 Package Installs:
 
-###Check if running as root.###
-Check for apt package manager.
-Install required packages using apt.
+### Check if running as root.
+### Check for apt package manager.
+### Install required packages using apt.
 Git Configuration:
 
 Set user name, email, core editor, default exclude, and git autocorrect using git config.
