@@ -1,29 +1,35 @@
-Package Installs:
+
+
+## Package Installs:
 
 ### Check if running as root.
 ### Check for apt package manager.
 ### Install required packages using apt.
-Git Configuration:
 
-Set user name, email, core editor, default exclude, and git autocorrect using git config.
-Copy .gitconfig to the git repository.
-Create a symbolic link to ~/.gitconfig.
-Bash Run Commands (rc):
+## Git Configuration:
 
-Add aliases to .bashrc.
-Copy .bashrc to the git repository.
-Create a symbolic link to ~/.bashrc.
-SSH Public Keys - Authorized Keys:
+### Set user name, email, core editor, default exclude, and git autocorrect using git config.
+### Copy .gitconfig to the git repository.
+### Create a symbolic link to ~/.gitconfig.
 
-Check if ~/.ssh folder exists. If not, create it.
-Copy ~/.ssh/authorized_keys to the repository and create a symbolic link to ~/.ssh/authorized_keys.
-Create ~/.ssh/config with an entry for fry.cs.wright.edu and symbolically link it to ~/.ssh/config.
-Vim Customizations:
+## Bash Run Commands (rc):
 
-Install Vundle for managing Vim plugins.
-Install a color scheme for Vim.
-Install a Vim improvement plugin.
-Here's a sample implementation of setup_dotfiles.sh:
+### Add aliases to .bashrc.
+### Copy .bashrc to the git repository.
+### Create a symbolic link to ~/.bashrc.
+
+## SSH Public Keys - Authorized Keys:
+
+### Check if ~/.ssh folder exists. If not, create it.
+### Copy ~/.ssh/authorized_keys to the repository and create a symbolic link to ~/.ssh/authorized_keys.
+### Create ~/.ssh/config with an entry for fry.cs.wright.edu and symbolically link it to ~/.ssh/config.
+
+## Vim Customizations:
+
+### Install Vundle for managing Vim plugins.
+### Install a color scheme for Vim.
+### Install a Vim improvement plugin.
+### Here's a sample implementation of install.sh:
 
 bash
 Copy code
