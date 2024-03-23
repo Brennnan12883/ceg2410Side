@@ -71,3 +71,9 @@ ln -s /path/to/dotfiles_repo/authorized_keys ~/.ssh/config
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # Pick and install color scheme using Vundle
 # Pick and install Vim improvement plugin using Vundle
+
+# References
+https://github.com/webpro/awesome-dotfiles
+https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c
+https://github.com/vikaskyadav/awesome-bash-alias
+ChatGPT
