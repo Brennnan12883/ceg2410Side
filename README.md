@@ -52,27 +52,27 @@ fi
 apt install -y dnsutils nmap
 
 # Git Configuration
-git config --global user.name "Your Name"
-git config --global user.email "your@email.com"
-git config --global core.editor "vim"
-git config --global core.excludesfile ~/.gitignore_global
-git config --global help.autocorrect 1
-cp ~/.gitconfig /path/to/dotfiles_repo/.gitconfig
-ln -s /path/to/dotfiles_repo/.gitconfig ~/.gitconfig
+- git config --global user.name "Your Name"
+- git config --global user.email "your@email.com"
+- git config --global core.editor "vim"
+- git config --global core.excludesfile ~/.gitignore_global
+- git config --global help.autocorrect 1
+- p ~/.gitconfig /path/to/dotfiles_repo/.gitconfig
+- ln -s /path/to/dotfiles_repo/.gitconfig ~/.gitconfig
 
 # Bash Run Commands (rc)
-echo -e "\n# Custom Aliases" >> ~/.bashrc
-echo "alias ll='ls -alF'" >> ~/.bashrc
-echo "alias update='sudo apt update && sudo apt upgrade -y'" >> ~/.bashrc
-cp ~/.bashrc /path/to/dotfiles_repo/.bashrc
-ln -s /path/to/dotfiles_repo/.bashrc ~/.bashrc
+- echo -e "\n# Custom Aliases" >> ~/.bashrc
+- echo "alias ll='ls -alF'" >> ~/.bashrc
+- echo "alias update='sudo apt update && sudo apt upgrade -y'" >> ~/.bashrc
+- cp ~/.bashrc /path/to/dotfiles_repo/.bashrc
+- ln -s /path/to/dotfiles_repo/.bashrc ~/.bashrc
 
 # SSH Public Keys - Authorized Keys
-mkdir -p ~/.ssh
-cp ~/.ssh/authorized_keys /path/to/dotfiles_repo/authorized_keys
-ln -s /path/to/dotfiles_repo/authorized_keys ~/.ssh/authorized_keys
-echo -e "Host fry.cs.wright.edu\n\tHostname fry.cs.wright.edu\n\tUser w_number\n\tIdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
-ln -s /path/to/dotfiles_repo/authorized_keys ~/.ssh/config
+- mkdir -p ~/.ssh
+- cp ~/.ssh/authorized_keys /path/to/dotfiles_repo/authorized_keys
+- ln -s /path/to/dotfiles_repo/authorized_keys ~/.ssh/authorized_keys
+- echo -e "Host fry.cs.wright.edu\n\tHostname fry.cs.wright.edu\n\tUser w_number\n\tIdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
+- ln -s /path/to/dotfiles_repo/authorized_keys ~/.ssh/config
 
 # Vim Customizations
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
