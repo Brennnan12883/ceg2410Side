@@ -44,6 +44,9 @@ fi
 
 # Install required packages
 - dnsutils
+- anaconda
+- nmap
+- bastet
 
 
 # Git Configuration
