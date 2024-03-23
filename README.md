@@ -1,6 +1,6 @@
 Package Installs:
 
-Check if running as root.
+###Check if running as root.###
 Check for apt package manager.
 Install required packages using apt.
 Git Configuration:
