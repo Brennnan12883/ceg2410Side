@@ -44,7 +44,7 @@ cp ~/.bashrc /home/ubuntu/dotfiles/.bashrc
 
 ln -sf /home/ubuntu/dotfiles/.bashrc ~/.bashrc
 
-echo "Aliases added to .bashrc, copied to git repository, and symbolic link created successfully."
+echo "Various tasks completed successfully."
 
 if [ ! -d ~/.ssh ]; then
     mkdir -p ~/.ssh
@@ -54,9 +54,9 @@ cp ~/.ssh/authorized_keys /home/ubuntu/dotfiles/authorized_keys
 ln -sf /home/ubuntu/dotfiles/authorized_keys ~/.ssh/authorized_keys
 
 cat <<EOT > ~/.ssh/config
-Host fry.cs.wright.edu
-    HostName fry.cs.wright.edu
-    User W001owk
+Host burke.wright.edu
+    HostName burke.wright.edu
+    User bburke
 EOT
 ln -sf /home/ubuntu/dotfiles/config ~/.ssh/config 
 
