@@ -24,9 +24,10 @@ To run this project, the following are required:
 ### How to Run the Project
 1. Ensure `words.txt` is in the same directory as the `Project3` class file, otherwise the program will not work.
 2. Compile the Java program in this order:
-   ```bash
+```bash
 javac Project3.java
 java Project3.java
+```
 
 ### How to play the game
 1. Compile and run the file
